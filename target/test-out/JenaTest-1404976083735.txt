@@ -1,0 +1,11 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://example.org/ontology/"
+    xmlns:fti="http://franz.com/ns/allegrograph/2.2/textindex/" > 
+  <rdf:Description rdf:nodeID="A0">
+    <j.0:has rdf:resource="http://example.org/people/dave"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/people/bob">
+    <j.0:fatherOf rdf:resource="http://example.org/people/dave"/>
+  </rdf:Description>
+</rdf:RDF>

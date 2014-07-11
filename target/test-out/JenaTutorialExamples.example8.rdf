@@ -1,0 +1,1516 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:err="http://www.w3.org/2005/xqt-errors#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.0="http://www.franz.com/simple#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:fn="http://www.w3.org/2005/xpath-functions#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:fti="http://franz.com/ns/allegrograph/2.2/textindex/" > 
+  <rdf:Description rdf:about="http://www.franz.com/simple#person41">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person11"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person12"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Robin</j.0:first-name>
+    <j.0:middle-initial>Elizabeth</j.0:middle-initial>
+    <j.0:last-name>Lawford</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1961</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place19">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Colorado Springs</j.0:name>
+    <j.0:state>Colorado</j.0:state>
+    <j.0:latitude>38.79124</j.0:latitude>
+    <j.0:longitude>-104.82492</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place45">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Brooklyn</j.0:name>
+    <j.0:state>New York</j.0:state>
+    <j.0:latitude>40.68209</j.0:latitude>
+    <j.0:longitude>-73.97783</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person21">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Edwin</j.0:first-name>
+    <j.0:middle-initial>Arthur</j.0:middle-initial>
+    <j.0:last-name>Schlossberg</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1945</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person20"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person36">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Jean</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Olsson</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1955</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person35"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place42">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Union</j.0:name>
+    <j.0:state>New Jersey</j.0:state>
+    <j.0:latitude>40.6954</j.0:latitude>
+    <j.0:longitude>-74.26933</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place10">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Quincy</j.0:name>
+    <j.0:state>Massachusetts</j.0:state>
+    <j.0:latitude>42.25074</j.0:latitude>
+    <j.0:longitude>-70.99593</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person60">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person14"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Matthew</j.0:first-name>
+    <j.0:middle-initial>Maxwell</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1965</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person61"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person56">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person14"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Mary</j.0:first-name>
+    <j.0:middle-initial>Kerry</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1959</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person57"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#non-profit"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place9">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Somerville</j.0:name>
+    <j.0:state>Massachusetts</j.0:state>
+    <j.0:latitude>42.381927</j.0:latitude>
+    <j.0:longitude>-71.09908</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person4">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person1"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person2"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>John</j.0:first-name>
+    <j.0:middle-initial>Fitzgerald</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Princeton"/>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Harvard"/>
+    <j.0:birth-year>1917</j.0:birth-year>
+    <j.0:death-year>1963</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person5"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person20"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person22"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person24"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#navy"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#congressman"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#senator"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#president"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place1">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Coulee</j.0:name>
+    <j.0:state>North Dakota</j.0:state>
+    <j.0:latitude>48.719925</j.0:latitude>
+    <j.0:longitude>-102.08301</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place39">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Charlestown</j.0:name>
+    <j.0:state>New Hampshire</j.0:state>
+    <j.0:latitude>43.24947</j.0:latitude>
+    <j.0:longitude>-72.39026</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person20">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person4"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person5"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Caroline</j.0:first-name>
+    <j.0:middle-initial>Bouvier</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Harvard"/>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Columbia"/>
+    <j.0:birth-year>1957</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person21"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#non-profit"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place25">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Nashville</j.0:name>
+    <j.0:state>Indiana</j.0:state>
+    <j.0:latitude>39.199356</j.0:latitude>
+    <j.0:longitude>-86.2395</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person15">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person1"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person2"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Jean</j.0:first-name>
+    <j.0:middle-initial>Ann</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Manhattanville-College"/>
+    <j.0:birth-year>1928</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person16"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person66"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person67"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person68"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person70"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#writer"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#non-profit"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#ambassador"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person29">
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#University-of-Wisconsin">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person35">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person11"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person12"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Christopher</j.0:first-name>
+    <j.0:middle-initial>Kennedy</j.0:middle-initial>
+    <j.0:last-name>Lawford</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1955</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person36"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#actor"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person69">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Cart</j.0:first-name>
+    <j.0:middle-initial>Harmon</j.0:middle-initial>
+    <j.0:last-name>Hood</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1966</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person68"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person40">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Robert</j.0:first-name>
+    <j.0:middle-initial>B</j.0:middle-initial>
+    <j.0:last-name>Pender</j.0:last-name>
+    <j.0:suffix>Jr</j.0:suffix>
+    <j.0:birth-year>1953</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person39"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person22">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person4"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person5"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>John</j.0:first-name>
+    <j.0:middle-initial>F</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>Jr</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Brown"/>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#NYU"/>
+    <j.0:birth-year>1960</j.0:birth-year>
+    <j.0:death-year>1999</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person23"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#district-attorney"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#publisher"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place44">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Bronx</j.0:name>
+    <j.0:state>New York</j.0:state>
+    <j.0:latitude>40.825726</j.0:latitude>
+    <j.0:longitude>-73.81752</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place43">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>New York</j.0:name>
+    <j.0:state>New York</j.0:state>
+    <j.0:latitude>40.82618</j.0:latitude>
+    <j.0:longitude>-73.9371</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Rosemont-College">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Yale">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Columbia">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place11">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Melrose</j.0:name>
+    <j.0:state>Massachusetts</j.0:state>
+    <j.0:latitude>42.459045</j.0:latitude>
+    <j.0:longitude>-71.06233</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place8">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Cambridge</j.0:name>
+    <j.0:state>Massachusetts</j.0:state>
+    <j.0:latitude>42.362297</j.0:latitude>
+    <j.0:longitude>-71.08412</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person49">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Mary</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Richardson</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1960</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person47"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person55">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Victoria</j.0:first-name>
+    <j.0:middle-initial>Denise</j.0:middle-initial>
+    <j.0:last-name>Gifford</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1957</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person54"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#NYU">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person61">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Victoria</j.0:first-name>
+    <j.0:middle-initial>Anne</j.0:middle-initial>
+    <j.0:last-name>Stauss</j.0:last-name>
+    <j.0:suffix>nill</j.0:suffix>
+    <j.0:birth-year>1964</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person60"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person5">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Jacqueline</j.0:first-name>
+    <j.0:middle-initial>Lee</j.0:middle-initial>
+    <j.0:last-name>Bouvier</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#George-Washington"/>
+    <j.0:birth-year>1929</j.0:birth-year>
+    <j.0:death-year>1994</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person4"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person20"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person22"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person24"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#photographer"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#home-maker"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#editor"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place38">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Georges Mills</j.0:name>
+    <j.0:state>New Hampshire</j.0:state>
+    <j.0:latitude>43.437504</j.0:latitude>
+    <j.0:longitude>-72.07185</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person16">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Stephen</j.0:first-name>
+    <j.0:middle-initial>Edward</j.0:middle-initial>
+    <j.0:last-name>Smith</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1927</j.0:birth-year>
+    <j.0:death-year>1990</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person15"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person66"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person67"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person68"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person70"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#campaign-organizer"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place24">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Atlanta</j.0:name>
+    <j.0:state>Georgia</j.0:state>
+    <j.0:latitude>33.750004</j.0:latitude>
+    <j.0:longitude>-84.31854</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place30">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Bentley</j.0:name>
+    <j.0:state>Michigan</j.0:state>
+    <j.0:latitude>43.93724</j.0:latitude>
+    <j.0:longitude>-84.12889</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person38">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>James</j.0:first-name>
+    <j.0:middle-initial>Peter</j.0:middle-initial>
+    <j.0:last-name>McKelvy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1955</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person37"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person68">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person15"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person16"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Amanda</j.0:first-name>
+    <j.0:middle-initial>Mary</j.0:middle-initial>
+    <j.0:last-name>Smith</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1967</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person69"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Manhattanville-College">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place47">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>East Elmhurst</j.0:name>
+    <j.0:state>New York</j.0:state>
+    <j.0:latitude>40.763016</j.0:latitude>
+    <j.0:longitude>-73.89052</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person58">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person14"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Christopher</j.0:first-name>
+    <j.0:middle-initial>George</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1963</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person59"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person2">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Rose</j.0:first-name>
+    <j.0:middle-initial>Elizabeth</j.0:middle-initial>
+    <j.0:last-name>Fitzgerald</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Sacred-Heart-Convent"/>
+    <j.0:birth-year>1890</j.0:birth-year>
+    <j.0:death-year>1995</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person1"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person3"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person4"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person6"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person7"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person9"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person11"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person15"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person17"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#home-maker"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#University-of-Virginia">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Sacred-Heart-Convent">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place40">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Groveton</j.0:name>
+    <j.0:state>New Hampshire</j.0:state>
+    <j.0:latitude>44.610603</j.0:latitude>
+    <j.0:longitude>-71.48147</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person48">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Emily</j.0:first-name>
+    <j.0:middle-initial>Ruth</j.0:middle-initial>
+    <j.0:last-name>Black</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1957</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person47"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person74">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person17"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person18"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Edward</j.0:first-name>
+    <j.0:middle-initial>M</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>Jr</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Wesleyan-University"/>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Yale"/>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#University-of-Connecticut"/>
+    <j.0:birth-year>1961</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person75"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#attorney"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#business"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place37">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Silver City</j.0:name>
+    <j.0:state>Nevada</j.0:state>
+    <j.0:latitude>39.262836</j.0:latitude>
+    <j.0:longitude>-119.64083</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Georgetown-University">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person27">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Arnold</j.0:first-name>
+    <j.0:middle-initial>Alois</j.0:middle-initial>
+    <j.0:last-name>Schwarzenegger</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#University-of-Wisconsin"/>
+    <j.0:birth-year>1947</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person26"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#body-builder"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#actor"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#governor"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place51"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place16">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Moraga</j.0:name>
+    <j.0:state>California</j.0:state>
+    <j.0:latitude>37.839424</j.0:latitude>
+    <j.0:longitude>-122.12426</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place50">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Bailey</j.0:name>
+    <j.0:state>North Carolina</j.0:state>
+    <j.0:latitude>35.79799</j.0:latitude>
+    <j.0:longitude>-78.10641</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person17">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person1"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person2"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Edward</j.0:first-name>
+    <j.0:middle-initial>Moore</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Harvard"/>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#University-of-Virginia"/>
+    <j.0:birth-year>1932</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person18"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person19"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person72"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person74"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person76"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#army"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#senator"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place3">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Kennebunkport</j.0:name>
+    <j.0:state>Maine</j.0:state>
+    <j.0:latitude>43.399494</j.0:latitude>
+    <j.0:longitude>-70.4769</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place27">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Algona</j.0:name>
+    <j.0:state>Iowa</j.0:state>
+    <j.0:latitude>43.0739</j.0:latitude>
+    <j.0:longitude>-94.22602</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person67">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person15"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person16"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>William</j.0:first-name>
+    <j.0:middle-initial>Kennedy</j.0:middle-initial>
+    <j.0:last-name>Smith</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1960</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#doctor"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person37">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person11"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person12"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Sydney</j.0:first-name>
+    <j.0:middle-initial>Maleia</j.0:middle-initial>
+    <j.0:last-name>Lawford</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1956</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person38"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place31">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Willernie</j.0:name>
+    <j.0:state>Minnesota</j.0:state>
+    <j.0:latitude>45.054665</j.0:latitude>
+    <j.0:longitude>-92.95703</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place46">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Flushing</j.0:name>
+    <j.0:state>New York</j.0:state>
+    <j.0:latitude>40.76052</j.0:latitude>
+    <j.0:longitude>-73.79612</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place18">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Rio Vista</j.0:name>
+    <j.0:state>California</j.0:state>
+    <j.0:latitude>38.15691</j.0:latitude>
+    <j.0:longitude>-121.72075</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person75">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Katherine</j.0:first-name>
+    <j.0:middle-initial>Anne</j.0:middle-initial>
+    <j.0:last-name>Gershman</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1959</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person74"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#professor"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Brown">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person47">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person14"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Robert</j.0:first-name>
+    <j.0:middle-initial>F</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>Jr</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Harvard"/>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Univeristy-of-Virginia"/>
+    <j.0:birth-year>1954</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person48"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person49"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#attorney"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#professor"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#broadcaster"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person10">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Robert</j.0:first-name>
+    <j.0:middle-initial>Sargent</j.0:middle-initial>
+    <j.0:last-name>Shriver</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Yale"/>
+    <j.0:birth-year>1915</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person9"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person25"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person26"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person28"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person31"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person33"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#navy"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#peace-corp"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#ambassador"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person57">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Andrew</j.0:first-name>
+    <j.0:middle-initial>Mark</j.0:middle-initial>
+    <j.0:last-name>Cuomo</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1957</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person56"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#cabinet-secretary"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#George-Washington">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place41">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Berlin</j.0:name>
+    <j.0:state>New Hampshire</j.0:state>
+    <j.0:latitude>44.463337</j.0:latitude>
+    <j.0:longitude>-71.19092</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place36">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Snyder</j.0:name>
+    <j.0:state>Nebraska</j.0:state>
+    <j.0:latitude>41.704483</j.0:latitude>
+    <j.0:longitude>-96.78794</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person76">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person17"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person18"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Patrick</j.0:first-name>
+    <j.0:middle-initial>Joseph</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1967</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#congressman"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person28">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person9"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person10"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Timothy</j.0:first-name>
+    <j.0:middle-initial>Perry</j.0:middle-initial>
+    <j.0:last-name>Shriver</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Yale"/>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Catholic-University"/>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#University-of-Connecticut"/>
+    <j.0:birth-year>1959</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person30"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#teacher"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#non-profit"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person3">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person1"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person2"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Joseph</j.0:first-name>
+    <j.0:middle-initial>P</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>Jr</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Harvard"/>
+    <j.0:birth-year>1915</j.0:birth-year>
+    <j.0:death-year>1944</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#navy"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place2">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Grand Rapids</j.0:name>
+    <j.0:state>Michigan</j.0:state>
+    <j.0:latitude>42.964176</j.0:latitude>
+    <j.0:longitude>-85.65885</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person18">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Virginia</j.0:first-name>
+    <j.0:middle-initial>Joan</j.0:middle-initial>
+    <j.0:last-name>Bennett</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Manhattanville-College"/>
+    <j.0:birth-year>1936</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person17"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person72"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person74"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person76"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#model"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#home-maker"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place51">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Wien</j.0:name>
+    <j.0:state>Austria</j.0:state>
+    <j.0:latitude>48.2</j.0:latitude>
+    <j.0:longitude>16.37</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place17">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>San Francisco</j.0:name>
+    <j.0:state>California</j.0:state>
+    <j.0:latitude>37.72423</j.0:latitude>
+    <j.0:longitude>-122.47958</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place26">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Miami Beach</j.0:name>
+    <j.0:state>Florida</j.0:state>
+    <j.0:latitude>25.759474</j.0:latitude>
+    <j.0:longitude>-80.13907</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place14">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Berkeley</j.0:name>
+    <j.0:state>California</j.0:state>
+    <j.0:latitude>37.879623</j.0:latitude>
+    <j.0:longitude>-122.2668</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person31">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person9"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person10"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Mark</j.0:first-name>
+    <j.0:middle-initial>Kennedy</j.0:middle-initial>
+    <j.0:last-name>Shriver</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1964</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person32"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place5">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Boston</j.0:name>
+    <j.0:state>Massachusetts</j.0:state>
+    <j.0:latitude>42.357903</j.0:latitude>
+    <j.0:longitude>-71.06408</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place49">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Oneonta</j.0:name>
+    <j.0:state>New York</j.0:state>
+    <j.0:latitude>42.46976</j.0:latitude>
+    <j.0:longitude>-75.05192</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person66">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person15"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person16"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Stephen</j.0:first-name>
+    <j.0:middle-initial>E</j.0:middle-initial>
+    <j.0:last-name>Smith</j.0:last-name>
+    <j.0:suffix>Jr</j.0:suffix>
+    <j.0:birth-year>1957</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person11">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person1"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person2"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Patricia</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Rosemont-College"/>
+    <j.0:birth-year>1924</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person12"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person35"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person37"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person39"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person41"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#producer"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#home-maker"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person73">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Michael</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Allen</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1958</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person72"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place21">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Windsor Locks</j.0:name>
+    <j.0:state>Connecticut</j.0:state>
+    <j.0:latitude>41.927</j.0:latitude>
+    <j.0:longitude>-72.64688</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person46">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Anne</j.0:first-name>
+    <j.0:middle-initial>Elizabeth</j.0:middle-initial>
+    <j.0:last-name>Kelly</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1957</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person44"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person25">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person9"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person10"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Robert</j.0:first-name>
+    <j.0:middle-initial>S</j.0:middle-initial>
+    <j.0:last-name>Shriver</j.0:last-name>
+    <j.0:suffix>III</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Yale"/>
+    <j.0:birth-year>1954</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#attorney"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#producer"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#goverment"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person32">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Jeannie</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Ripp</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1965</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person31"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place35">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Raynesford</j.0:name>
+    <j.0:state>Montana</j.0:state>
+    <j.0:latitude>47.26124</j.0:latitude>
+    <j.0:longitude>-110.725</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person8">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>William</j.0:first-name>
+    <j.0:middle-initial>JR</j.0:middle-initial>
+    <j.0:last-name>Cavendish</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1917</j.0:birth-year>
+    <j.0:death-year>1944</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person7"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#army"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person51">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person14"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Mary</j.0:first-name>
+    <j.0:middle-initial>Courtney</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1956</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person52"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person53"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place28">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Neal</j.0:name>
+    <j.0:state>Kansas</j.0:state>
+    <j.0:latitude>37.83135</j.0:latitude>
+    <j.0:longitude>-96.07111</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person30">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Linda</j.0:first-name>
+    <j.0:middle-initial>Sophia</j.0:middle-initial>
+    <j.0:last-name>Potter</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1956</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person28"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place15">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Oakland</j.0:name>
+    <j.0:state>California</j.0:state>
+    <j.0:latitude>37.75398</j.0:latitude>
+    <j.0:longitude>-122.18969</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place4">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Limerick</j.0:name>
+    <j.0:state>Maine</j.0:state>
+    <j.0:latitude>43.682793</j.0:latitude>
+    <j.0:longitude>-70.77178</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place48">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Richville</j.0:name>
+    <j.0:state>New York</j.0:state>
+    <j.0:latitude>44.41476</j.0:latitude>
+    <j.0:longitude>-75.37897</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#University-of-Connecticut">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person39">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person11"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person12"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Victoria</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Lawford</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1958</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person40"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person65">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Mark</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Bailey</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1967</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person64"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Wesleyan-University">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person12">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Peter</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Lawford</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1923</j.0:birth-year>
+    <j.0:death-year>1984</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person11"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person35"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person37"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person39"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person41"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#actor"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person64">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person14"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Rory</j.0:first-name>
+    <j.0:middle-initial>Elizabeth</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Brown"/>
+    <j.0:birth-year>1968</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person65"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#producer"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person45">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Sheila</j.0:first-name>
+    <j.0:middle-initial>Brewster</j.0:middle-initial>
+    <j.0:last-name>Rauch</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1949</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person44"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person59">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Sheila</j.0:first-name>
+    <j.0:middle-initial>Sinclair</j.0:middle-initial>
+    <j.0:last-name>Berner</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1962</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person58"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person72">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person17"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person18"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Kara</j.0:first-name>
+    <j.0:middle-initial>Anne</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1960</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person73"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person1">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Joseph</j.0:first-name>
+    <j.0:middle-initial>Patrick</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Harvard"/>
+    <j.0:birth-year>1888</j.0:birth-year>
+    <j.0:death-year>1969</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person2"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person3"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person4"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person6"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person7"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person9"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person11"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person15"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person17"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#banker"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#producer"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#ambassador"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place34">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Jamestown</j.0:name>
+    <j.0:state>Missouri</j.0:state>
+    <j.0:latitude>38.77066</j.0:latitude>
+    <j.0:longitude>-92.48206</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place20">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>New Britain</j.0:name>
+    <j.0:state>Connecticut</j.0:state>
+    <j.0:latitude>41.6591</j.0:latitude>
+    <j.0:longitude>-72.80129</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person26">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person9"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person10"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Maria</j.0:first-name>
+    <j.0:middle-initial>Owings</j.0:middle-initial>
+    <j.0:last-name>Shriver</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Georgetown-University"/>
+    <j.0:birth-year>1955</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person27"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#reporter"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person9">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person1"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person2"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Eunice</j.0:first-name>
+    <j.0:middle-initial>Mary</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1921</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person10"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person25"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person26"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person28"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person31"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person33"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#volunteer"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person50">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person14"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>David</j.0:first-name>
+    <j.0:middle-initial>Anthony</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1955</j.0:birth-year>
+    <j.0:death-year>1984</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#writer"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place29">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Hodge</j.0:name>
+    <j.0:state>Louisiana</j.0:state>
+    <j.0:latitude>32.27214</j.0:latitude>
+    <j.0:longitude>-92.72489</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Boston-University">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place7">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Dover</j.0:name>
+    <j.0:state>Massachusetts</j.0:state>
+    <j.0:latitude>42.23888</j.0:latitude>
+    <j.0:longitude>-71.28241</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person54">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person14"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Michael</j.0:first-name>
+    <j.0:middle-initial>LeMoyne</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1958</j.0:birth-year>
+    <j.0:death-year>1997</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person55"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place12">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Weymouth</j.0:name>
+    <j.0:state>Massachusetts</j.0:state>
+    <j.0:latitude>42.212868</j.0:latitude>
+    <j.0:longitude>-70.95872</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place23">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Trumbull</j.0:name>
+    <j.0:state>Connecticut</j.0:state>
+    <j.0:latitude>41.25613</j.0:latitude>
+    <j.0:longitude>-73.21227</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Harvard">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Princeton">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#true"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person44">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person14"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Joseph</j.0:first-name>
+    <j.0:middle-initial>P</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>II</j.0:suffix>
+    <j.0:birth-year>1952</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person45"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person46"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#congressman"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person63">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Molly</j.0:first-name>
+    <j.0:middle-initial>Elizabeth</j.0:middle-initial>
+    <j.0:last-name>Stark</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1968</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person62"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person13">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person1"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person2"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Robert</j.0:first-name>
+    <j.0:middle-initial>Francis</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#University-of-Virginia"/>
+    <j.0:birth-year>1925</j.0:birth-year>
+    <j.0:death-year>1968</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person14"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person42"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person44"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person47"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person50"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person51"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person54"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person56"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person58"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person60"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person62"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person64"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#navy"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#attorney-general"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#senator"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person71">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Alfred</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Tucker</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1967</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person70"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person23">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Carolyn</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Bessette</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Boston-University"/>
+    <j.0:birth-year>1966</j.0:birth-year>
+    <j.0:death-year>1999</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person22"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#model"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#PR"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person53">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Paul</j.0:first-name>
+    <j.0:middle-initial>Michael</j.0:middle-initial>
+    <j.0:last-name>Hill</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1954</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person51"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person6">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person1"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person2"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Rose</j.0:first-name>
+    <j.0:middle-initial>Marie</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1918</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person34">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Alina</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Mojica</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1965</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person33"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place33">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Bernie</j.0:name>
+    <j.0:state>Missouri</j.0:state>
+    <j.0:latitude>36.6624</j.0:latitude>
+    <j.0:longitude>-90.00768</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place6">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Salem</j.0:name>
+    <j.0:state>Massachusetts</j.0:state>
+    <j.0:latitude>42.516846</j.0:latitude>
+    <j.0:longitude>-70.8985</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place13">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Louisville</j.0:name>
+    <j.0:state>Kentucky</j.0:state>
+    <j.0:latitude>38.270855</j.0:latitude>
+    <j.0:longitude>-85.48322</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person19">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Victoria</j.0:first-name>
+    <j.0:middle-initial>Anne</j.0:middle-initial>
+    <j.0:last-name>Reggie</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1954</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person17"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#attorney"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person42">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person14"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Kathleen</j.0:first-name>
+    <j.0:middle-initial>Hartington</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Harvard"/>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#University-of-New-Maxico"/>
+    <j.0:birth-year>1951</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person43"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#attorney"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#Lt-governor"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place22">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Lebanon</j.0:name>
+    <j.0:state>Connecticut</j.0:state>
+    <j.0:latitude>41.618404</j.0:latitude>
+    <j.0:longitude>-72.24215</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person14">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Ethel</j.0:first-name>
+    <j.0:middle-initial>nil</j.0:middle-initial>
+    <j.0:last-name>Skakel</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Manhattanville-College"/>
+    <j.0:birth-year>1928</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person42"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person44"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person47"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person50"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person51"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person54"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person56"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person58"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person60"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person62"/>
+    <j.0:has-child rdf:resource="http://www.franz.com/simple#person64"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#home-maker"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#non-profit"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person43">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>David</j.0:first-name>
+    <j.0:middle-initial>Lee</j.0:middle-initial>
+    <j.0:last-name>Townsend</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1947</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person42"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person70">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person15"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person16"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Kym</j.0:first-name>
+    <j.0:middle-initial>Maria</j.0:middle-initial>
+    <j.0:last-name>Smith</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1972</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person71"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person62">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person13"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person14"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Douglas</j.0:first-name>
+    <j.0:middle-initial>Harriman</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:alma-mater rdf:resource="http://www.franz.com/simple#Brown"/>
+    <j.0:birth-year>1967</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person63"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#reporter"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person52">
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Jeffrey</j.0:first-name>
+    <j.0:middle-initial>Robert</j.0:middle-initial>
+    <j.0:last-name>Ruhe</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1952</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person51"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#Catholic-University">
+    <j.0:ivy-league rdf:resource="http://www.franz.com/simple#false"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person24">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person4"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person5"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Patrick</j.0:first-name>
+    <j.0:middle-initial>Bouvier</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1963</j.0:birth-year>
+    <j.0:death-year>1963</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person7">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person1"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person2"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Kathleen</j.0:first-name>
+    <j.0:middle-initial>Agnes</j.0:middle-initial>
+    <j.0:last-name>Kennedy</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1920</j.0:birth-year>
+    <j.0:death-year>1948</j.0:death-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#female"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person8"/>
+    <j.0:profession rdf:resource="http://www.franz.com/simple#volunteer"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#place32">
+    <rdf:type rdf:resource="http://www.franz.com/simple#Place"/>
+    <j.0:name>Lanesboro</j.0:name>
+    <j.0:state>Minnesota</j.0:state>
+    <j.0:latitude>43.70844</j.0:latitude>
+    <j.0:longitude>-91.95965</j.0:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.franz.com/simple#person33">
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person9"/>
+    <j.0:has-parent rdf:resource="http://www.franz.com/simple#person10"/>
+    <rdf:type rdf:resource="http://www.franz.com/simple#person"/>
+    <j.0:first-name>Anthony</j.0:first-name>
+    <j.0:middle-initial>Kennedy</j.0:middle-initial>
+    <j.0:last-name>Shriver</j.0:last-name>
+    <j.0:suffix>none</j.0:suffix>
+    <j.0:birth-year>1965</j.0:birth-year>
+    <j.0:sex rdf:resource="http://www.franz.com/simple#male"/>
+    <j.0:spouse rdf:resource="http://www.franz.com/simple#person34"/>
+    <j.0:birth-place rdf:resource="http://www.franz.com/simple#place20"/>
+  </rdf:Description>
+</rdf:RDF>
